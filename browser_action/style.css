@@ -1,0 +1,42 @@
+body{
+	font-size: 14px;
+	margin: 0;
+	padding: 5px;
+	min-height: 180px;
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+}
+
+#done{
+	color: green;
+	display: none;
+}
+
+#tryagain{
+	color: red;
+	display: none;	
+}
+
+#button1{
+	margin-top: 10px;
+}
+
+#button2{
+	margin-top: 5px;
+}
+
+p{
+	margin: 0;
+	text-align: center;	
+}
+
+h3{
+	margin: 0;
+	text-align: center;
+}

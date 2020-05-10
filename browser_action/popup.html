@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h3>CoronaBlock</h3>
+	<p id="howto">Input replacement words for Russian or/and English coronavirus references and press "Replace"</p>
+	<p id="done">Done!</p>
+	<p id="tryagain">Input at least one!</p>
+
+	<label>Кто? Что?</label>
+	<input type="text" id="i" maxlength="30" placeholder="коронавирус">
+	<label>Кого? Чего?</label>
+	<input type="text" id="r" maxlength="30" placeholder="коронавируса">
+	<label>Кому? Чему?</label>
+	<input type="text" id="d" maxlength="30" placeholder="коронавирусу">
+	<label>Кем? Чем?</label>
+	<input type="text" id="t" maxlength="30" placeholder="коронавирусом">
+	<label>О ком? О чем?</label>
+	<input type="text" id="p" maxlength="30" placeholder="коронавирусе">
+	
+	<label>Word for COVID</label>
+	<input type="text" id="covid" maxlength="30" placeholder="COVID">
+	<label>Word for coronavirus</label>
+	<input type="text" id="cv" maxlength="30" placeholder="coronavirus">
+
+	<input id="button1" type=button value=Replace>
+	<input id="button2" type=button value=Stop>
+	<script src="popup.js"></script>
+</body>
+</html>
