@@ -1,2 +1,2 @@
-#CoronaBlock Chrome Extension
+# CoronaBlock Chrome Extension
 Hi! I don’t know about you, but I’m tired of being bombarded by coronavirus news and other content for last couple months. So I created this extension for Chrome that can replace virus text references on web pages with whatever I want. Also, extension can replace corona references in Russian language cause it’s my native tongue. All in all, this app is easy to use and can help you create save corona free web space :blush:
